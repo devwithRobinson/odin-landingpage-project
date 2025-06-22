@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background-color: #1f2937;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 25px;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image-section {
+    display: block;
+    margin: 60px 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.hero-text-section {
+    display: block;
+}
+.hero-text-section h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+.hero-text-section p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+     color: #F9FAF8;
+    margin-bottom: 20px;
+}
+.hero-image-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.hero-btn {
+    display: block;
+    margin-top: 15px;
+}
+.btn {
+    font-family: "Roboto", sans-serif;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
